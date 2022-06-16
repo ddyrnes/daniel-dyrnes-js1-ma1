@@ -1,16 +1,3 @@
-const cats = [
-  {
-    name: "Blob",
-    age: 10,
-  },
-  {
-    name: "Harold",
-  },
-  {
-    name: "Blurt",
-    age: 21,
-  },
-];
 // Question 1
 const cat = {
   complain: function () {
@@ -37,9 +24,24 @@ for (let i = 0; i < paragraphs.length; i++) {
 }
 
 // Question 6
+const resultsContainer = document.querySelector(".results");
+
+resultsContainer.innerHTML = "<p>" + "New paragraph" + "</p>";
+resultsContainer.style.background = "yellow";
 
 // Question 7
+const cats = [
+  {
+    name: "Blob",
+    age: 10,
+  },
+  {
+    name: "Harold",
+  },
+  {
+    name: "Blurt",
+    age: 21,
+  },
+];
 
 // Question 8
-
-// Question 9
